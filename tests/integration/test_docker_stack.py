@@ -10,8 +10,8 @@ running (see docker-compose.yml) before opting in, e.g.:
 """
 import os
 
-import pytest
 import httpx
+import pytest
 
 pytestmark = pytest.mark.integration
 

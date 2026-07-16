@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import Response
-from prometheus_client import generate_latest, CONTENT_TYPE_LATEST
+from prometheus_client import CONTENT_TYPE_LATEST, generate_latest
 from pydantic import BaseModel, Field
 
 from app import metrics

@@ -13,7 +13,6 @@ import pytest
 
 from app.drift import DriftDetector, DriftStatus, RollingEmbeddingWindow, _psi
 
-
 DIM = 32
 
 
